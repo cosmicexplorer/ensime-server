@@ -12,9 +12,7 @@ lazy val json = project.settings(
   licenses := Seq(LGPL3),
   libraryDependencies ++= Seq(
     "com.chuusai"    %% "shapeless"  % shapelessVersion,
-    "org.scalacheck" %% "scalacheck" % "1.13.5" % Test,
-    // TODO: is this necessary? This is the version used in the containing pants project.
-    "io.spray" %% "spray-json" % "1.3.4"
+    "org.scalacheck" %% "scalacheck" % "1.13.5" % Test
   )
 )
 

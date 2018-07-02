@@ -4,7 +4,6 @@
 package org.ensime.api
 
 import scalaz.deriving
-import scalaz.std.list._
 
 import spray.json.{ JsReader, JsWriter }
 
